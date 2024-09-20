@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "New Tab Quotes",
+    "description": "Displays a new quote each time you open a new tab.",
+    "version": "1.0",
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": [],
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
+  
